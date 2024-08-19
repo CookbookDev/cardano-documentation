@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^1.1.0",
+    "@cookbookdev/docsbot": "^4.21.17",
     "@ctrl/tinycolor": "^4.0.3",
     "@docusaurus/core": "3.1.1",
     "@docusaurus/plugin-client-redirects": "3.1.1",
@@ -40,7 +41,7 @@
     "path-browserify": "^1.0.1",
     "posthog-js": "^1.76.0",
     "prism-react-renderer": "^2.3.0",
-    "puppeteer": "^5.3.1",
+    "puppeteer": "^23.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-google-recaptcha": "^3.1.0",
@@ -72,6 +73,9 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "resolutions": {
+    "puppeteer": "https://github.com/seanaye/puppeteer/releases/download/v5.5.0-apple-silicon/puppeteer-core-5.5.0-post.tgz"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
